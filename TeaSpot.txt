@@ -1,0 +1,35 @@
+TeaSpot/
+│
+├── index.html
+├── style.css
+└── script.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TeaSpot | Best Tea Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🍵 TeaSpot</h1>
+    <p>Find the best tea in your city</p>
+
+    <label for="teaType">Choose your tea preference:</label>
+    <select id="teaType">
+        <option value="">-- Select Tea Type --</option>
+        <option value="masala">Masala Tea</option>
+        <option value="ginger">Ginger Tea</option>
+        <option value="green">Green Tea</option>
+        <option value="lemon">Lemon Tea</option>
+    </select>
+
+    <button onclick="suggestTea()">Find Best Tea</button>
+
+    <div id="result"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
