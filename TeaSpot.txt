@@ -23,7 +23,7 @@ TeaSpot/
         <option value="ginger">Ginger Tea</option>
         <option value="green">Green Tea</option>
         <option value="lemon">Lemon Tea</option>
-        <option valur="elaichi">elaichi Tea</option>
+        <option value="elaichi">elaichi Tea</option>
     </select>
 
     <button onclick="suggestTea()">Find Best Tea</button>
@@ -34,4 +34,5 @@ TeaSpot/
 <script src="script.js"></script>
 </body>
 </html>
+
 
